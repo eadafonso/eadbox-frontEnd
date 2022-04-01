@@ -21,6 +21,7 @@ export default createGlobalStyle`
     'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
     outline: none;
+    background-color: ${({ theme }) => theme.colors.background};
   }
 
   h1, h2, h3, h4, h5, h6, strong {
