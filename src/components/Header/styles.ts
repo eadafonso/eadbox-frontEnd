@@ -8,7 +8,7 @@ export const Container = styled.header`
   align-items: center;
   justify-content: space-between;
   background-color: ${({ theme }) => theme.colors.white};
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #eee;
 `;
 
 export const LogoContainer = styled.div``;
